@@ -1,0 +1,135 @@
+[background arg="#000000ff" fade="0.0"]
+[wait time="1.0"]
+[background arg="res://Backgrounds/DSC00022.jpg" fade="0.8" wait="true"]
+# 循环播放闹铃声，同时设定通道名为 alarm
+audio alarm "res://Audio/beeping.mp3"
+手机在床头依旧响个不停
+你打算下一步该怎么做
+- 拿起手机关闭闹铃
+	audio alarm -
+	你伸手摸索了几下，终于按掉了闹钟。
+- 把自己裹进超厚棉被里
+	你拉起厚棉被，重新把自己整个裹进去。
+	然而闹钟并没有因此停止。
+	[wait time="3.0"]
+	几秒后，你还是不得不拿起手机关闭了闹钟。
+	audio alarm -
+- 再睡五分钟
+	audio alarm -
+	[wait time="1.5"]
+	你把闹钟向后推迟了五分钟。
+	[wait time="5.0"]
+	audio alarm "res://Audio/beeping.mp3"
+	五分钟后，闹钟再次响了起来。
+	最后你还是认命地关掉了闹钟。
+	audio alarm -
+
+清晨的光从窗帘缝隙里落进房间。
+audio background_music "res://Audio/Lofi hip hop Volume 1) - 06 - Soft Lights (Loop Version).mp3" [bus=""]
+你揉着酸痛的腰从床上坐起身
+你穿上了昨晚放在一边叠好的基金会作训服。
+join nine_tailed_fox_lin right
+nine_tailed_fox_lin: ······
+nine_tailed_fox_lin: 我该去洗漱了。
+leave nine_tailed_fox_lin
+你叠好乱糟糟的超厚棉被，走向洗手间。
+旁边属于混沌分裂者的床位早已收拾好，意味着床铺主人比你醒来地更早。
+[background arg="#000000ff" fade="0.0"]
+[background arg="res://Backgrounds/bathroom1.jpg" fade="0.5"]
+你推开洗手间的门。
+这里的每一件设施都很老旧，却又没有任何一件真正坏到无法使用。\
+按照黑心房东的标准，这间洗手间显然不存在任何需要维修的问题。
+你走到洗手池前，拧开水龙头。
+audio alarm "res://Audio/the-sound-of-water-flowing-from-a-faucet.mp3"
+[wait time="2.0"]
+略显浑浊的水从水龙头里冒了出来。
+你静待片刻。
+直到水流逐渐变得清澈，你才伸手接住水流，洗了把脸。
+接下来是刷牙、漱口、依旧整理睡乱的头发。虽然你的头发并不算长，但你还是觉得不能不整理一下。
+audio alarm -
+[wait time="0.5"]
+洗漱完毕后，你抬起头，看向洗手池上方那表面有很多水渍的镜子。
+[wait time="0.8"]
+镜面上蒙着一层尚未散去的水汽，你抬手擦去一小片雾气。
+镜中的人也在看着你。
+[wait time="1.0"]
+nine_tailed_fox_lin: ......
+nine_tailed_fox_lin: 还好。
+nine_tailed_fox_lin: 我看起来并没有那么糟糕。
+没有任何异常，至少今天看上去没有。
+[background arg="#000000ff" fade="0.0"]
+[background arg="res://Backgrounds/apartment2.jpg" fade="0.4"]
+你走出洗手间，来到宿舍外走廊，走廊上零零散散地路过几名人形异常员工。
+这时，一个熟悉的、懒散的、带有斯拉夫气质的男声从背后叫住了你。
+join Chaos_Insurgency_serlens center
+Chaos_Insurgency_serlens: 早啊，九尾狐，你似乎起得比我晚。
+nine_tailed_fox_lin: ······你什么时候起那么早的？
+Chaos_Insurgency_serlens: 你睡得还是太死了，你不知道自己被闹钟叫了一次没醒吗？
+你有些尴尬，但还是很快恢复了镇定。
+nine_tailed_fox_lin: 那又怎么了，至少我的睡眠质量比你好得多。
+混沌分裂者只是笑了笑不说话，虽然他戴着防毒面具，但你还是能看出来他在笑。
+leave Chaos_Insurgency_serlens
+你们两个并排走在宿舍走廊，清晨的阳光透过窗户照亮了走廊的地面。
+audio "res://Audio/universfield-new-notification-09-352705.mp3"
+这时你的手机响起了提示音。
+join nine_tailed_fox_lin right
+nine_tailed_fox_lin: 让我看看又是什么工作任务。
+nine_tailed_fox_lin: ······
+你点开了手机屏幕上方弹出的任务消息。
+虽说这条消息里列出来的每个任务虽然看起来很简单，但只要是个正常人都会看出来有多不对劲，可你早已习以为常了不是吗。
+今日份任务：去把特定包裹送到中产区33栋001号。注意：不要让包裹里的东西被任何人看到。报酬：200G
+nine_tailed_fox_lin: 老样子，又要去跑腿了。
+join Chaos_Insurgency_serlens left [mirrored="true"]
+Chaos_Insurgency_serlens: 那九尾狐你先去送包裹吧，我待会还要去巡楼，顺带教训那些闹事租客。
+nine_tailed_fox_lin: 好吧，那我就先走了。
+Chaos_Insurgency_serlens: 等等，你还没吃饭就去干活，你不怕低血糖吗？
+nine_tailed_fox_lin: 差点忘了。
+leave --All--
+你和混沌分裂者并排下楼，打算吃点东西再开始一天的物业工作。周围的人形异常员工们都在忙碌地走动着，偶尔有几名员工会向你们点头示意。
+audio background_music "res://Audio/Midnight Reverie.mp3"
+[background arg="#000000ff" fade="0.0"]
+[background arg="res://Backgrounds/canteen1.jpg" fade="1.5"]
+你们走进了宿舍楼下的员工食堂。
+食堂里挤满了员工，人群来来往往，你们两个找了个靠窗的座位坐下。
+join Chaos_Insurgency_serlens center
+Chaos_Insurgency_serlens: 我先去拿餐盘了帮我看好座位。
+leave Chaos_Insurgency_serlens
+混沌分裂者去拿餐盘了，你打算接下来做点什么？
+- 去拿餐盘 | [else="disable"]
+	你离开座位，走向食堂的餐盘领取处。
+	要吃点什么吗？
+	- 刚刚炸好的可乐饼
+		你拿了一个刚刚炸好的可乐饼，这是你的最爱
+		jump badroom1/take
+	- 可颂和冰美式
+		你拿了一个可颂和一杯冰美式咖啡，可颂是刚出炉的，还带有黄油香气。
+		jump badroom1/take
+	- 馄饨
+		你拿了一碗热腾腾的馄饨。
+		jump badroom1/take
+- 坐在座位上等混沌分裂者回来
+	你坐在座位上，安静地等待混沌分裂者回来，其他员工陆陆续续经过你的座位。
+	jump badroom1/no_take
+# 九尾狐不拿餐盘，而是等混沌分裂者回来。
+label no_take
+[wait time="2.0"]
+join Chaos_Insurgency_serlens center
+Chaos_Insurgency_serlens: 怎么，连餐盘都不愿意自己去拿？
+他说着，顺带把你的那份餐盘摆放到你面前。
+Chaos_Insurgency_serlens: 我只是觉得你不会自己来拿就帮你拿了，可乐饼也是买多了。
+你没说话，但心里还是猜到他不是顺手的。
+leave Chaos_Insurgency_serlens
+混沌分裂者拉开对面的凳子，坐在你面前。
+jump badroom1/GOC
+# 反之拿了餐盘的选项
+label take
+你拿着餐盘回到了座位附近
+join Chaos_Insurgency_serlens center
+Chaos_Insurgency_serlens: 自己去拿餐盘了？还挺勤快。
+leave Chaos_Insurgency_serlens
+jump badroom1/GOC
+label GOC
+一位穿着GOC评估小组装备的人端着餐盘径直走过来，拉开了凳子坐在你旁边。
+join Global_Occult_Coalition_Müller center
+Global_Occult_Coalition_Müller: 请问这里有人吗？有人的话我去别的地方坐了。
+nine_tailed_fox_lin: 这里没有人坐，可以坐这里的。
